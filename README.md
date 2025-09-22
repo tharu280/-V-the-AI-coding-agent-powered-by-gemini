@@ -4,65 +4,6 @@ V is a teaching-first AI coding agent that demonstrates AI agent design patterns
 It is built on Google Gemini’s function calling capabilities and shows how an LLM can plan, critique, and act through tools instead of just generating text.
 
 ---
-Basic structure of "V":
-
-+-------------------+
-|      USER         |
-| "Explain hello.py"|
-+---------+---------+
-          |
-          v
-+-------------------+
-|        V          |
-|   (AI Agent)      |
-| - Receives prompt |
-| - Prepares system |
-|   instructions    |
-+---------+---------+
-          |
-          v
-+-------------------+
-|  Gemini LLM       |
-|  (Model)          |
-| - Thinks about    |
-|   what to do      |
-| - Decides which   |
-|   tool to call    |
-+---------+---------+
-          |
-          v
-+-------------------+      Tool Calls
-|     Tool Layer    |----------------------------+
-|  (Python funcs)  |                            |
-| - get_files_info  |                            |
-| - get_file_content|                            |
-| - write_file      |                            |
-| - run_python_file |                            |
-+---------+---------+                            |
-          |                                      |
-          v                                      |
-+-------------------+                            |
-|  Tool Result       |<--------------------------+
-| - File content     |
-| - Directory list   |
-| - Execution output |
-+---------+---------+
-          |
-          v
-+-------------------+
-| Reflection Loop    |
-| - LLM critiques   |
-|   result          |
-| - Decides if more |
-|   steps needed    |
-+---------+---------+
-          |
-          v
-+-------------------+
-|   Final Answer     |
-| - Printed output   |
-| - Optional verbose |
-+-------------------+
 
 
 ## 🧠 AI Agent Design Patterns in V
@@ -154,3 +95,4 @@ print("Hello, World!")
 
 
 ---
+
