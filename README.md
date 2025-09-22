@@ -42,6 +42,9 @@ This mimics how humans work on coding tasks: explore, test, revise, then explain
 - 🛠️ Agentic Tool Use (real functions, not hallucinated code)  
 
 ---
+![AI Agent -get file content](./sc1.png) , ![AI Agent -write file + get file content](./sc2.png) 
+![AI Agent -get file info](./sc3.png)  ,  ![AI Agent -write new  file content](./sc4.png) 
+
 ![AI Agent Flowchart](./flow.png) 
 
 
@@ -91,6 +94,7 @@ Instead of spitting out code, the agent executes real actions.
 Instead of answering once, it reflects and iterates until the task is done.
 Instead of being rigid, it uses modular tools that can be extended (add your own!).
 This makes it a mini framework for experimenting with AI agent design.
+
 
 
 
