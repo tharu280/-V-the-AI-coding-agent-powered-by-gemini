@@ -5,9 +5,6 @@ It is built on Google Gemini’s function calling capabilities and shows how an 
 
 ---
 
-
-
-
 ## 🧠 AI Agent Design Patterns in V
 
 V is not just a code runner — it follows modern agent design principles:
@@ -46,16 +43,7 @@ This mimics how humans work on coding tasks: explore, test, revise, then explain
 
 ---
 ![AI Agent Flowchart](./flow.png) 
-AI Reflection:
-This script simply prints 'Hello, World!' to the console when executed.
-📌 Why This Matters
-V shows how to go beyond a simple chatbot and implement agentic behavior:
-Instead of spitting out code, the agent executes real actions.
-Instead of answering once, it reflects and iterates until the task is done.
-Instead of being rigid, it uses modular tools that can be extended (add your own!).
-This makes it a mini framework for experimenting with AI agent design.
-📜 License
-MIT License – free to use, modify, and learn from.
+
 
 ## 🛠️ Installation
 
@@ -93,13 +81,16 @@ python main.py "Could you explain the code in hello.py?"
 Output (simplified):
 Function result (get_file_content):
 print("Hello, World!")
-
-
-
-
-
-
 ---
+
+AI Reflection:
+This script simply prints 'Hello, World!' to the console when executed.
+📌 Why This Matters
+V shows how to go beyond a simple chatbot and implement agentic behavior:
+Instead of spitting out code, the agent executes real actions.
+Instead of answering once, it reflects and iterates until the task is done.
+Instead of being rigid, it uses modular tools that can be extended (add your own!).
+This makes it a mini framework for experimenting with AI agent design.
 
 
 
