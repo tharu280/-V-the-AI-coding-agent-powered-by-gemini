@@ -4,7 +4,8 @@ V is a teaching-first AI coding agent that demonstrates AI agent design patterns
 It is built on Google Gemini’s function calling capabilities and shows how an LLM can plan, critique, and act through tools instead of just generating text.
 
 ---
-![AI Agent Flowchart](./ai_flowchart.svg)
+![AI Agent Flowchart](./ai_flowchart.png)
+
 
 
 ## 🧠 AI Agent Design Patterns in V
@@ -96,5 +97,6 @@ print("Hello, World!")
 
 
 ---
+
 
 
