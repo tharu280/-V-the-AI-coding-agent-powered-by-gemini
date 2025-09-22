@@ -45,6 +45,7 @@ This mimics how humans work on coding tasks: explore, test, revise, then explain
 - 🛠️ Agentic Tool Use (real functions, not hallucinated code)  
 
 ---
+![AI Agent Flowchart](./flow.png) 
 AI Reflection:
 This script simply prints 'Hello, World!' to the console when executed.
 📌 Why This Matters
@@ -96,9 +97,10 @@ print("Hello, World!")
 
 
 
-![AI Agent Flowchart](./flow.png)
+
 
 ---
+
 
 
 
