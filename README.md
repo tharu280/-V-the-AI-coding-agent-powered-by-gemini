@@ -3,7 +3,9 @@
 V is a teaching-first AI coding agent that demonstrates AI agent design patterns in practice.  
 It is built on Google Gemini’s function calling capabilities and shows how an LLM can plan, critique, and act through tools instead of just generating text.
 
-[![Watch the demo]]([https://www.linkedin.com/your-post-link](https://www.linkedin.com/posts/tharushika-abedheera-3396311a4_ai-agenticai-geminiapi-activity-7381066444673003520-C_l1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_Kg50BnjbR5xO7unO3rKyCnc0-DFK9CqE))
+A short demo video explaining how V works and how it applies the Agentic AI design patterns is available here:  
+[Watch the demo on LinkedIn]([https://www.linkedin.com/your-post-link](https://www.linkedin.com/posts/tharushika-abedheera-3396311a4_ai-agenticai-geminiapi-activity-7381066444673003520-C_l1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_Kg50BnjbR5xO7unO3rKyCnc0-DFK9CqE))
+
 
 ---
 
